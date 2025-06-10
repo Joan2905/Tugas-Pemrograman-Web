@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body,
+html 
+  body, html {
+  height: 100%;
+  background: url("fresh-fruits-strawberries-raspberries-orange-apple-kiwi-grape-assorted-fruits-wallpaper-preview.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  background-color: rgba(194, 142, 142, 0.9);
+  padding: 30px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+select {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #27ae60;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  background-color: #a9c1c7;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button {
+  background-color: crimson;
+  border: none;
+  color: rgb(228, 178, 178);
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: darkred;
+}
+
+body,
+html {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background: url("")
+    no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: rgba(194, 142, 142, 0.9);
+  padding: 30px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+
+  /* Border atas & bawah: gradient style */
+  border-top: 6px solid;
+  border-bottom: 6px solid;
+  border-image: linear-gradient(to right, #ffb347, #ffcc33, #99ff99) 1;
+}
+
+body::before,
+body::after {
+  content: "";
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  z-index: 0; /* berada di bawah konten */
+}
+
+body::before {
+  top: 0;
+  background: linear-gradient(to right, #ff7675, #ffeaa7, #55efc4);
+}
+
+body::after {
+  bottom: 0;
+  background: linear-gradient(to right, #55efc4, #ffeaa7, #ff7675);
+}

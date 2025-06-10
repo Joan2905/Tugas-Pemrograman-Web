@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pilih Buah</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🍓 Pilih Nama Buah</h1>
+      <div class="input-group">
+        <select id="fruitSelect">
+          <option value="">-- Pilih Buah --</option>
+          <option value="Apel🍎">Apel</option>
+          <option value="Jeruk🍊">Jeruk</option>
+          <option value="Mangga🥭">Mangga</option>
+          <option value="Pisang🍌">Pisang</option>
+          <option value="Semangka🍉">Semangka</option>
+        </select>
+        <button onclick="addFruit()">Tambah➕</button>
+      </div>
+      <ul id="fruitList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
